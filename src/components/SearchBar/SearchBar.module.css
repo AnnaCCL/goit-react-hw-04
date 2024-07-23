@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  justify-content: center;
+
+  input {
+    background-color: #cec3d1;
+    border: 2px solid purple;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+    color: black;
+  }
+
+  button {
+    background-color: purple;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #896c9c;
+    }
+  }
+}

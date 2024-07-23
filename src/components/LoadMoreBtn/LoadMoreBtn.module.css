@@ -1,0 +1,15 @@
+.loadBtn {
+  display: flex;
+  justify-content: center;
+
+  button {
+    background-color: purple;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: #896c9c;
+    }
+  }
+}
